@@ -174,3 +174,11 @@ header {
     font-weight: 700;
     margin-top: 40px;
 }
+.sec4{
+    display: flex;
+    width: 1600px;
+    height: 500px;
+}
+.offer{
+    margin-right: 70px;
+}
