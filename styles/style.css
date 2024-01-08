@@ -1,7 +1,5 @@
 /* common related styles */
 body section {
-    margin: 0;
-    padding: 0;
     font-family: 'Merriweather', serif;
 }
 
@@ -111,7 +109,9 @@ header {
     width: 319.83px;
     height: 464.662px;
     /* padding: 0.008px 0px 0px 0px; */
-    margin: 68px 138px 67px 40px;
+    margin-right: 138px;
+    margin-top: 68px;
+    margin-bottom: 68px;
 }
 
 .sec2-title {
@@ -145,7 +145,7 @@ header {
     margin: 0px auto;
     border-radius: 16px;
     margin-top: 120px;
-    font-family:'Inter', sans-serif;
+    font-family: 'Inter', sans-serif;
     /* line-height: 56px; */
 }
 
@@ -155,12 +155,15 @@ header {
     font-weight: 600;
     line-height: 25px;
 }
-.sec3-body{
+
+.sec3-body {
     padding: 100px 385px;
 }
-.Red{
+
+.Red {
     color: #F00;
 }
+
 .btn-primary {
     padding: 16px 32px;
     justify-content: center;
@@ -174,11 +177,46 @@ header {
     font-weight: 700;
     margin-top: 40px;
 }
-.sec4{
+
+.sec4 {
     display: flex;
-    width: 1600px;
-    height: 500px;
+    width: 1320px;
+    height: 480px;
+    text-align: left;
+    background-color: #FFF;
 }
-.offer{
+
+.offer {
     margin-right: 70px;
+    margin-top: 100px;
+    width: 393px;
+}
+
+.cheers {
+    margin-top: 110px;
+    margin-left: 118px;
+    width: 276px;
+}
+
+.cheers-title {
+    margin-bottom: 5px;
+}
+
+.cheers-description {
+    /* margin-top: 0; */
+}
+
+.offer-starting {
+    margin-bottom: 0;
+}
+
+.offer-title {
+    margin-top: 0;
+    margin-bottom: 22px;
+}
+
+.bonus-img {
+    /* justify-content: space-between; */
+    width: 364.844px;
+    height: 364.844px;
 }
