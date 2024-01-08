@@ -2,10 +2,7 @@
 body section {
     margin: 0;
     padding: 0;
-    font-family: 'Inter', sans-serif;
     font-family: 'Merriweather', serif;
-    font-family: 'Open Sans', sans-serif;
-    font-family: 'Work Sans', sans-serif;
 }
 
 header {
@@ -15,7 +12,7 @@ header {
 
 .container {
     position: relative;
-    background-image: url('/resources/Banner\ Image.png');
+    background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('/resources/Banner\ Image.png');
     background-size: cover;
     /* background-position: cover; */
     border-radius: 16px;
@@ -55,6 +52,7 @@ header {
 .sec1 {
     text-align: center;
     margin-bottom: 120px;
+    font-family: 'Inter', sans-serif;
 
 }
 
@@ -85,30 +83,13 @@ header {
 
 }
 
-.sec2-title {
-    color: #FFF;
-    font-size: 64px;
-    font-weight: 900;
-    line-height: 88px;
-    /* 137.5% */
-    letter-spacing: 7.04px;
-}
-
-.sec2-description {
-    color: rgba(255, 255, 255, 0.80);
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 30px;
-}
-
 .join {
-    color: #770404;
-    font-family: Inter;
+    color: #FFF;
     font-size: 20px;
-    /* font-style: normal; */
     font-weight: 700;
-    line-height: normal;
     /* text-transform: uppercase; */
+    margin-left: 30px;
+    font-family: 'Inter', sans-serif;
 }
 
 
@@ -122,23 +103,54 @@ header {
     background: #F00;
     color: #FFF;
     text-align: center;
-    font-family: Inter;
     font-size: 20px;
     font-style: normal;
     font-weight: 700;
 }
 
 .sec2 {
-    background-image: url('/resources/Vectorrr.png');
+    background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('../resources/Vectorrr.png');
     background-repeat: no-repeat;
     background-size: cover;
+    border-radius: 16px;
     width: 1320px;
     height: 600px;
     margin: 0px auto;
     display: flex;
-    gap: 60px;
-    margin-top: 0;
+    gap: 40px;
+    /* margin-top: 0; */
 }
 
 .sec2-body {
+    margin: 68px 40px 140px 125px;
+}
+
+.sec2-img {
+    width: 319.83px;
+    height: 464.662px;
+    /* padding: 0.008px 0px 0px 0px; */
+    margin: 68px 138px 67px 40px;
+}
+
+.sec2-title {
+    margin-bottom: 23px;
+    color: #FFF;
+    font-size: 64px;
+    font-weight: 900;
+    line-height: 88px;
+    width: 640px;
+    font-style: normal;
+    /* 137.5% */
+    letter-spacing: 7.04px;
+}
+
+.sec2-description {
+    margin-top: 0;
+    margin-bottom: 48px;
+    font-family: 'Inter', sans-serif;
+    color: rgba(255, 255, 255, 0.80);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    width: 697px
 }
