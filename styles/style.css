@@ -24,6 +24,7 @@ header {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    font-family: 'Merriweather', serif;
     padding: 177px 344px;
 
 }
@@ -32,6 +33,7 @@ header {
     color: #FFF;
     text-align: center;
     font-size: 72px;
+    font-family: 'Merriweather', serif;
     font-weight: 900;
     margin-top: 0;
     margin-bottom: 0;
@@ -182,8 +184,10 @@ header {
     display: flex;
     width: 1320px;
     height: 480px;
+    margin: 0px auto;
     text-align: left;
     background-color: #FFF;
+    margin-top: 120px;
 }
 
 .offer {
@@ -200,23 +204,51 @@ header {
 
 .cheers-title {
     margin-bottom: 5px;
+    font-family: 'Inter', sans-serif;
 }
 
 .cheers-description {
-    /* margin-top: 0; */
+    margin-bottom: 43px;
+}
+
+.group-img {
+    /* margin-top: 50px; */
 }
 
 .offer-starting {
     margin-bottom: 0;
+    font-family: 'Inter', sans-serif;
+    color: #F00;
+    font-size: 22px;
+    font-weight: 500;
 }
 
 .offer-title {
     margin-top: 0;
     margin-bottom: 22px;
+    color: #070211;
+    font-size: 48px;
+    font-weight: 900;
+    /* line-height: normal; */
+}
+
+.offer-description,
+.cheers-description {
+    font-family: 'Inter', sans-serif;
 }
 
 .bonus-img {
+    width: 463px;
+    height: 463px;
+    border-radius: 463px;
+    border: 15px solid #F00;
     /* justify-content: space-between; */
+}
+
+.ellipse {
     width: 364.844px;
     height: 364.844px;
+    border-radius: 364.844px;
+    margin: 35px;
+
 }
