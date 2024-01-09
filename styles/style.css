@@ -342,13 +342,16 @@ header {
     line-height: 32px;
 }
 
-.box1 :hover {}
-
 .img-box {
     width: 424px;
     height: 450px;
     margin-right: 13px;
     margin-bottom: 13px;
+    transition: 0.5s;
+}
+.box1 .img-box:hover{
+    transform: scale(1.2);
+    z-index: 2;
 }
 
 .sec7 {
